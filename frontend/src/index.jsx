@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// import App from './views/app';
-import Main from './views/main';
-import store from './store'
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
+import App from './app';
+import store from './store';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Provider store={store}>
-    {/* <App /> */}
-    <Main />
+    <App />
   </Provider>,
   document.getElementById('root'),
 );
