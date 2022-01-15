@@ -7,7 +7,7 @@
 
 .header button {
   font-size: 16px;
-  padding: 10px;
+  padding: 20px;
   margin: 0 3px;
   margin-bottom: -1px;
   font-weight: bold;
@@ -17,11 +17,11 @@
 }
 
 .header button:hover {
-  padding-bottom: 7px;
+  padding-bottom: 17px;
   border-bottom: #3d52d5 solid 3px;
 }
 .header button.selected {
   cursor: default;
-  padding-bottom: 7px;
+  padding-bottom: 17px;
   border-bottom: #090c9b solid 3px;
 }
